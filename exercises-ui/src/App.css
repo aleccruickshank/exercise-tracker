@@ -1,0 +1,171 @@
+@import url(//fonts.googleapis.com/css?family=Roboto);
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+    text-align: center;
+    background-color:rgb(245, 245, 245);
+    color: rgb(12, 12, 12);
+    font-size: 16px;
+}
+
+
+header, main, article, footer {
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+    text-align: center;
+    background-color:rgb(245, 245, 245);
+    color: rgb(12, 12, 12);
+    padding: 2px;
+    border: none;
+}
+
+nav {
+    margin: 12px;
+    vertical-align: auto;
+}
+nav a {
+    background-color: #5973f8;
+    color:#f1faee;
+    margin: 5px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    border: 2px solid  #5973f8;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #98A8F8;
+}
+
+
+table#exercises {
+    background-color: #637bf7;
+}
+table {
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid  #5973f8;
+    padding: 30px;
+    list-style: none;
+    color: #f6fff8;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-shadow: 1px 1px 2px #000;
+}
+caption {
+    font-weight: bold;
+    font-size: 20px;
+    color:  #5973f8;
+}
+
+td#delete {
+    color:#fc2828;
+    font-weight: bold;
+}
+
+td#edit {
+    color:#3effaf;
+}
+
+tbody tr {
+    border-bottom: 1px solid #5973f8;
+    
+}
+
+tbody tr:hover {
+    font-weight: bold;
+    background-color: #5973f8;
+}
+
+tr {
+    padding: 30px;
+    margin: 30px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(144, 162, 253);
+}
+
+tr:last-of-type{
+    background-color: #5973f8;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+thead th {
+    background-color: #5973f8;
+    color: #f1faee;
+    padding: 8px 5px;
+}
+
+thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+fieldset {
+    background-color: #98A8F8;
+    display: inline-block;
+    width: 20%;
+    border-radius: 5px;
+    border: 2px solid  #5973f8;
+    font-family: Roboto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    list-style: none;
+    color: #f6fff8;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-shadow: 1px 1px 2px #000;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    
+}
+
+input {
+    font-family: Roboto;
+}
+
+input, select {
+    background-color: #ffffff;
+    color:#131313;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid  #5973f8;
+    text-decoration: none;
+}
+
+button {
+    background-color: #5973f8;
+    color:#ffffff;
+    margin: 5px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    border: 2px solid  #5973f8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #98A8F8;
+}
+
